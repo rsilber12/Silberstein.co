@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="UTF-8">
+   
+    
   </Head>
 
   <body>
@@ -19,22 +21,31 @@
 
    <div class="container">
    
-    <form action="contact.php" method="post">
+    <form action="https://formsubmit.co/3444822@gmail.com" method="POST" >
         <label class="frm" name="name">Name</label>
-        <input id="m1" type="text">
+        <input id="m1" name="name" type="text">
 
         <label class="frm" name="email" >Email</label>
-        <input id="m2" type="text">
+        <input id="m2" type="email">
 
         <label class="frm" name="message">Message</label>
         <input id="m3" type="text">
 
         <div class="btn"><button id="m">Send</button></div>
+
+        <input type="hidden" name="_next" value="thanks.html">
+
+        <input type="hidden" name="_cc" value="3894070@gmail.com">
         
         <div class="line"></div>
         
+      
+
     </form>
+
+    
 </div>
+
 
   </body>
 </html>

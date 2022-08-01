@@ -115,3 +115,16 @@ input[type="checkbox"]{
   margin-top: 10px;
   cursor: pointer;
 }
+
+h1{
+  color: white;
+  margin-top: 200px;
+  margin-left: 35%;
+}
+
+.close{
+  color: white;
+  text-decoration: none;
+  margin-left: 50%;
+  margin-top: 0;
+}
