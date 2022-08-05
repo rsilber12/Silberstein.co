@@ -214,3 +214,21 @@ textarea{
   cursor: pointer;
   font-family: ringside-extra-wide;
 }
+
+#thank{
+  color: white;
+  font-family: ringside-extra-wide;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#back{
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: ringside-extra-wide;
+}
+.back{
+  text-decoration: none;
+}
