@@ -78,7 +78,7 @@ h2{
 
 @media screen and (max-width: 480px) {
   .ac-container {
-    width: 275px;
+    width: 360px;
     transition: all 0.3s ease-in-out
   }
 }
