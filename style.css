@@ -69,9 +69,16 @@ h2{
     transition: all 0.3s ease-in-out
   }
 }
-@media screen and (max-width: 600px) {
+@media (min-width: 480px) and (max-width: 768px){
   .ac-container {
     width: 500px;
+    transition: all 0.3s ease-in-out
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ac-container {
+    width: 275px;
     transition: all 0.3s ease-in-out
   }
 }
